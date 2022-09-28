@@ -1,9 +1,10 @@
 #!/bin/bash
-
-link_1="https://cloclo50.datacloudmail.ru/public/get/7ZZhgpzRcSSXucdE4NKZy4rQ97FSdpV9Q6t3WBnMTcp9x195Rhu6C7hpY9AfkbKk3uauYv/bptrans@bk.ru/client_8_3_16_1148.deb64.tar.gz"
-link_2="https://cloclo21.datacloudmail.ru/attach/7YcWwb5bee23Bqe5epz2JRgUnEoessHa6bMkHgAostWiYGZ9JxWWxMC8fHV4xmRtEnNJbf/bptrans@bk.ru/1C/deb64_8_3_16_1148.tar.gz"
+base_link="http://i90521xy.beget.tech/1c"
 arc_1="client_8_3_16_1148.deb64.tar.gz"
 arc_2="deb64_8_3_16_1148.tar.gz"
+link_1="$base_link/$arc_1"
+link_1="$base_link/$arc_2"
+
 
 echo "Создание каталога /tmp/1c"
 cd /tmp
